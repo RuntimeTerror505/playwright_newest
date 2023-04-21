@@ -19,6 +19,7 @@ RUN apt-get update && \
     # Create the pwuser
     adduser pwuser
 
+
 # === BAKE BROWSERS INTO IMAGE ===
 
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
