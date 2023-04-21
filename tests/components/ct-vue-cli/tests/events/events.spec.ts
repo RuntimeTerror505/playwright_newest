@@ -11,6 +11,7 @@ test('emit an submit event when the button is clicked', async ({ mount }) => {
       submit: (data: string) => messages.push(data),
     },
   });
+
   await component.click();
   expect(messages).toEqual(['hello']);
 });
