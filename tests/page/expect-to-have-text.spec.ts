@@ -17,6 +17,7 @@
 import { stripAnsi } from '../config/utils';
 import { test, expect } from './pageTest';
 
+
 test.describe('toHaveText with regex', () => {
   test('pass', async ({ page }) => {
     await page.setContent('<div id=node>Text   content</div>');
