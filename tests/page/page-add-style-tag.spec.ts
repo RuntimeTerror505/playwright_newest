@@ -18,6 +18,7 @@
 import { test as it, expect } from './pageTest';
 import path from 'path';
 
+
 it('should throw an error if no options are provided', async ({ page, server }) => {
   let error = null;
   try {
