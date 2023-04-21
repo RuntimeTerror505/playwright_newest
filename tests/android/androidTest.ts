@@ -19,7 +19,6 @@ import type { PageTestFixtures, PageWorkerFixtures } from '../page/pageTestApi';
 import type { AndroidDevice, BrowserContext } from 'playwright-core';
 export { expect } from '@playwright/test';
 
-
 type AndroidWorkerFixtures = PageWorkerFixtures & {
   androidDevice: AndroidDevice;
   androidContext: BrowserContext;
