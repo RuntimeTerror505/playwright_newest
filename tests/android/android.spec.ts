@@ -31,6 +31,7 @@ test('androidDevice.close', async function({ playwright }) {
   expect(events).toEqual(['close']);
 });
 
+
 test('should be able to use a custom port', async function({ playwright }) {
   const proxyPort = 5038;
   let countOfIncomingConnections = 0;
