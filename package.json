@@ -13,6 +13,7 @@
   },
   "license": "Apache-2.0",
   "scripts": {
+
     "ctest": "playwright test --config=tests/library/playwright.config.ts --project=chromium",
     "ftest": "playwright test --config=tests/library/playwright.config.ts --project=firefox",
     "wtest": "playwright test --config=tests/library/playwright.config.ts --project=webkit",
