@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": false,
+        "noEmit": true,
+        "moduleResolution": "node",
+        "target": "ESNext",
+        "strictNullChecks": false,
+        "strictBindCallApply": true,
+        "allowSyntheticDefaultImports": true,
+        "useUnknownInCatchVariables": false,
+        "baseUrl": "..",
+        "paths": {
+          "@protocol/*": ["packages/protocol/src/*"],
+          "@recorder/*": ["packages/recorder/src/*"],
+          "@trace/*": ["packages/trace/src/*"],
+          "@web/*": ["packages/web/src/*"],
+        },
+    },
+    "include": ["**/*.spec.js", "**/*.ts", "index.d.ts"],
+    "exclude": ["components/"]
+}
