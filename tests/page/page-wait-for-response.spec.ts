@@ -17,6 +17,7 @@
 
 import { test as it, expect } from './pageTest';
 
+
 it('should work', async ({ page, server }) => {
   await page.goto(server.EMPTY_PAGE);
   const [response] = await Promise.all([
