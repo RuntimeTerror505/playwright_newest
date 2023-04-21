@@ -24,6 +24,7 @@ test('androidDevice.shell', async function({ androidDevice }) {
   expect(output.toString()).toBe('123\n');
 });
 
+
 test('androidDevice.open', async function({ androidDevice }) {
   const socket = await androidDevice.open('shell:/bin/cat');
   await socket.write(Buffer.from('321\n'));
